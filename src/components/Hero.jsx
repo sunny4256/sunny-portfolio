@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -78,14 +77,6 @@ const Hero = () => {
                         className="text-white/80 hover:text-white transition-colors"
                       >
                         <FaLinkedin size={24} />
-                      </a>
-                      <a
-                        href="https://leetcode.com/yourusername"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-white/80 hover:text-white transition-colors"
-                      >
-                        <SiLeetcode size={24} />
                       </a>
                     </div>
                   </div>
