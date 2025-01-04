@@ -21,10 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import stripe from "./company/stripe.png";
-import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.jpg";
+import JP from "./company/JP.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +50,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  stripe,
-  shopify,
+  JP,
   starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,

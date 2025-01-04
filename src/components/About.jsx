@@ -55,55 +55,88 @@ const About = () => {
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-6 sm:mt-10 text-[16px] sm:text-[20px] max-w-5xl mx-auto 
-                   text-white-100 font-sans px-4 sm:px-8 py-6 rounded-lg 
-                   backdrop-blur-sm bg-white/5 shadow-xl border border-white/10 
-                   tracking-wide leading-relaxed m-4"
+             text-white-100 font-sans px-4 sm:px-8 py-6 rounded-lg 
+             backdrop-blur-lg bg-gradient-to-br from-gray-900 via-gray-800 to-black 
+             shadow-2xl border border-gray-700 tracking-wide leading-relaxed m-4"
       >
         <p className="mb-4 sm:mb-6">
-          Senior Full Stack Developer with{" "}
-          <span className="text-purple-400 font-semibold">
-            4.5 years of hands-on experience
+          As a{" "}
+          <span className="text-purple-400 font-bold">
+            Full-Stack Developer
           </span>
-          , currently advancing my expertise through an MS in Information
-          Technology at the University of Central Missouri. My professional
-          journey includes impactful contributions at{" "}
-          <span className="text-green-400 font-semibold">Cognizant</span>, where
-          I spearheaded the development of enterprise-scale web applications and
-          collaborated with diverse, cross-functional teams.
+          with over{" "}
+          <span className="text-yellow-400 font-semibold">
+            4 years of hands-on expertise
+          </span>
+          , I specialize in creating robust, scalable, and high-performance web
+          applications. Currently advancing my technical repertoire while
+          pursuing an
+          <span className="text-cyan-400 font-semibold">
+            {" "}
+            MS in Information Technology
+          </span>
+          at the University of Central Missouri, I am passionate about
+          integrating modern technologies to drive innovation and efficiency.
         </p>
 
-        <p className="mb-4 sm:mb-6 text-[15px] sm:text-[20px]">
-          My technical arsenal includes modern web development with{" "}
-          <span className="text-cyan-400 font-semibold">React</span> and
-          <span className="text-blue-400 font-semibold"> Next.js</span>, coupled
-          with robust backend solutions using
+        <p className="mb-4 sm:mb-6">
+          My professional journey includes impactful roles at
+          <span className="text-green-400 font-semibold">
+            {" "}
+            JPMorgan Chase
+          </span>{" "}
+          and
+          <span className="text-green-400 font-semibold"> Cognizant</span>,
+          where I led the development of enterprise-grade web solutions,
+          designed cloud-native architectures, and collaborated with diverse,
+          cross-functional teams in Agile environments. My skill set spans from
+          <span className="text-cyan-400 font-semibold"> React.js</span>,
+          <span className="text-blue-400 font-semibold"> Angular</span>, and
+          <span className="text-yellow-400 font-semibold"> Node.js</span> on the
+          front end to robust backend frameworks like{" "}
+          <span className="text-purple-400 font-semibold">Spring Boot</span>
+          and <span className="text-yellow-400 font-semibold">Django</span>.
+        </p>
+
+        <p className="mb-4 sm:mb-6">
+          My technical arsenal includes architecting solutions on
+          <span className="text-orange-400 font-semibold"> AWS</span>,
+          <span className="text-blue-300 font-semibold"> Azure</span>, and
+          implementing
           <span className="text-yellow-400 font-semibold">
             {" "}
-            Firebase
-          </span> and{" "}
-          <span className="text-green-400 font-semibold">Node.js</span>. I've
-          architected solutions on{" "}
-          <span className="text-orange-400 font-semibold">AWS</span> and
-          <span className="text-blue-300 font-semibold"> Azure</span>, ensuring
-          scalable and resilient applications.
+            DevOps best practices
+          </span>{" "}
+          such as CI/CD pipelines, containerization with{" "}
+          <span className="text-cyan-400 font-semibold"> Docker</span>, and
+          orchestration using
+          <span className="text-blue-400 font-semibold"> Kubernetes</span>. I've
+          integrated cutting-edge
+          <span className="text-purple-400 font-semibold">
+            {" "}
+            AI-driven technologies
+          </span>{" "}
+          to enhance functionality and deliver seamless user experiences.
         </p>
 
-        <p className="text-[15px] sm:text-[20px]">
-          Notable achievements include developing an{" "}
+        <p>
+          Notable achievements include developing an
           <span className="text-pink-400 font-semibold">
+            {" "}
             Electronic Retail Platform
-          </span>{" "}
-          with seamless payment integration and a comprehensive{" "}
+          </span>
+          with secure payment systems, a feature-rich
           <span className="text-purple-400 font-semibold">
+            {" "}
             Gym Management System
           </span>
-          . I'm passionate about{" "}
+          , and real-time{" "}
           <span className="text-yellow-400 font-semibold">
-            DevOps practices
-          </span>
-          , implementing CI/CD pipelines, and leveraging{" "}
-          <span className="text-blue-400 font-semibold">containerization</span>{" "}
-          for efficient deployment.
+            fraud detection models
+          </span>{" "}
+          using <span className="text-cyan-400 font-semibold">TensorFlow</span>.
+          I thrive on solving complex challenges, mentoring teams, and pushing
+          the boundaries of innovation to deliver impactful results.
         </p>
       </motion.div>
 

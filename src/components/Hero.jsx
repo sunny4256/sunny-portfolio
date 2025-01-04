@@ -46,19 +46,16 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-2 mt-2">
-                      {[
-                        "Full-Stack",
-                        "Web3",
-                        "Cloud Architecture",
-                        "DevOps",
-                      ].map((tag) => (
-                        <span
-                          key={tag}
-                          className="px-3 py-1 text-sm bg-white/10 rounded-full text-white hover:bg-white/20 transition-colors"
-                        >
-                          {tag}
-                        </span>
-                      ))}
+                      {["Full-Stack", "Cloud Architecture", "DevOps"].map(
+                        (tag) => (
+                          <span
+                            key={tag}
+                            className="px-3 py-1 text-sm bg-white/10 rounded-full text-white hover:bg-white/20 transition-colors"
+                          >
+                            {tag}
+                          </span>
+                        )
+                      )}
                     </div>
 
                     <div className="flex justify-center lg:justify-start gap-4 mt-4">
@@ -99,8 +96,8 @@ const Hero = () => {
               desc: "Building scalable applications with modern frameworks and cloud-native technologies",
             },
             {
-              title: "Web3 Innovation",
-              desc: "Exploring blockchain technology and smart contract development",
+              title: "Frontend & Backend Integration",
+              desc: "Crafting seamless user experiences and efficient server-side functionality",
             },
             {
               title: "DevOps Excellence",

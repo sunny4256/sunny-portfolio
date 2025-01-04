@@ -14,10 +14,9 @@ import {
   mongodb,
   git,
   figma,
+  JP,
   docker,
-  stripe,
   starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -123,22 +122,22 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Cognizant",
-    icon: starbucks,
+    title: "Software Engineer II, Payments Technology",
+    company_name: "JP Morgan Chase & Co.",
+    icon: JP,
     iconBg: "#383E56",
-    date: "February 2022 - August 2022",
+    date: "August 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Accelerated financial application performance by improving page load times by 30% through the design and development of dynamic ReactJS user interfaces with optimized component rendering.",
+      "Reduced server response times by 40% by creating and maintaining scalable Python APIs using advanced asynchronous programming techniques, enhancing system efficiency and reliability.",
+      "Ensured 99.9% system uptime by deploying and managing cloud-native applications on AWS with Docker and Kubernetes, optimizing scalability and reliability.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Graduate Research Assistant",
-    company_name: "UCM",
-    icon: tesla,
+    title: "Software Engineer I",
+    company_name: "Cognizant",
+    icon: starbucks,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - May 2024",
     points: [
@@ -150,9 +149,9 @@ const experiences = [
   },
 
   {
-    title: "Full stack Developer",
-    company_name: "Stripe",
-    icon: stripe,
+    title: "Software Engineer Intern",
+    company_name: "Cognizant",
+    icon: starbucks,
     iconBg: "#E6DEDD",
     date: "Jan 2024 - Present",
     points: [
